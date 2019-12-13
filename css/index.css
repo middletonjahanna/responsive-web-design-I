@@ -61,7 +61,12 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* .header{
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px;
 
+} */
 
 
 div {
@@ -138,7 +143,7 @@ div a:hover {
 
 }
 
- a {
+ li {
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
@@ -190,10 +195,10 @@ span {
 .logo {
 	display: inline-block;
 	vertical-align: top;
-	margin:5% auto;
+	margin: 0 1em;
+	padding-top: 1em;
+	margin:2% auto;
 	width: auto;
-	border:10%;
-
 }
 
 .img-right {
@@ -286,7 +291,7 @@ span {
 	}
 }
 
-@media(max-width: 2500px){
+@media(max-width: 1000px){ 
 	div.header{
 		display: flex;
 		flex-direction: row;
@@ -301,5 +306,5 @@ span {
 		width: 30%;
 		align-items: center;
 	}
-}
+ } 
 
