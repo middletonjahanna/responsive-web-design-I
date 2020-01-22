@@ -62,38 +62,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* nav{
-	width: 75%;
-	display: inline-block;
-	margin: 0 auto;
-	background: rgba(200,200,200, 1);
-	padding-right: 30rem;
-} */
-
-.header{
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	
-}
-
-.header img{
-	margin-left: 5%;
-}
-
-nav{
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	width: 80%;
-	display: flex;
-	justify-content: space-between;
-}
 
 
-/* New Code */
 div {
 	display: inline-block;
-	/* width: 60%; */
+	width: 60%;
 	height: calc(auto + 3em);
 	margin-bottom: 0;
 	text-align: center;
@@ -140,17 +113,15 @@ div span {
 	padding: 0;
 }
 
-/* div a { 
-	/* display: inline-block; */
-	/* height: calc(auto + 3em);
-	width: calc(auto + 3em); */
-	/* border: 1px solid black;
+/* div a {
+	display: inline-block;
+	height: calc(auto + 3em);
+	width: calc(auto + 3em);
+	border: 1px solid black;
 	padding: 1em 2em;
 	vertical-align: bottom;
-	text-align: center; */
-	/* These are Testing styles */
-/* }  */
-
+	text-align: center;
+} */
 
 div a:hover {
 	/* transform: scale(1.3); */
@@ -160,12 +131,12 @@ div a:hover {
 
 }
 
- /* li {
+ li {
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
 	text-shadow: .5px .5px gray;
-} */
+}
 
 /* nav li {
 	flex-basis: 80%;
@@ -174,11 +145,11 @@ div a:hover {
 	border-right: 2px double black;
 	border-bottom: 2px double black;
 	box-shadow: 1px 2px 1px rgba(50,50,50,0.7);
-} */
+} 
 
 
 
-/* nav li:first-child {
+ nav li:first-child {
 	margin-left: 1em;
 }
 
@@ -194,7 +165,7 @@ footer {
 
 footer span {
 	padding: .5em 0;
-}
+} *
 
 address {
 	padding: .5em 0;
@@ -209,10 +180,10 @@ span {
 .logo {
 	display: inline-block;
 	vertical-align: top;
-	/* margin: 0 1em;
+	margin: 0 1em;
 	padding-top: 1em;
 	margin:2% auto;
-	width: auto; */
+	width: auto;
 }
 
 .img-right {
@@ -273,7 +244,7 @@ span {
 
 }
 
-  @media(max-width: 1000px){ 
+@media(max-width: 1000px){ 
 	div.header{
 		display: flex;
 		flex-direction: row;
